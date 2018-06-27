@@ -1,6 +1,8 @@
 #!/usr/bin/env php
 <?php
 
+date_default_timezone_set('Europe/Moscow');
+
 set_time_limit( 0 );
 
 if( !file_exists( __DIR__ . '/cacert.pem' ) )
